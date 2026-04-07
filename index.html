@@ -1,85 +1,72 @@
 <!DOCTYPE html>
-
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Meus Links</title>
+
   <style>
-    body {
+    * {
       margin: 0;
-      font-family: Arial;
-      background: linear-gradient(180deg, #111, #000);
-      color: white;
-      text-align: center;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
     }
 
-```
-.container {
-  max-width: 400px;
-  margin: 50px auto;
-}
+    body {
+      height: 100vh;
+      background: url('https://usinacaete.com/wp-content/uploads/2023/06/DJI_0991-scaled.jpg') no-repeat center center/cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
 
-.profile img {
-  width: 90px;
-  border-radius: 50%;
-}
+    .container {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 40px;
+      border-radius: 15px;
+      text-align: center;
+      backdrop-filter: blur(10px);
+      width: 90%;
+      max-width: 400px;
+    }
 
-.profile h2 {
-  margin-top: 10px;
-}
+    h1 {
+      color: white;
+      margin-bottom: 30px;
+      font-size: 28px;
+    }
 
-.link {
-  display: flex;
-  align-items: center;
-  background: #111;
-  margin: 10px 0;
-  padding: 12px;
-  border-radius: 10px;
-  text-decoration: none;
-  color: white;
-  transition: 0.2s;
-}
+    .botao {
+      display: block;
+      margin: 15px 0;
+      padding: 15px;
+      background: white;
+      color: black;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
 
-.link:hover {
-  background: #222;
-}
-
-.link img {
-  width: 40px;
-  height: 40px;
-  border-radius: 5px;
-  margin-right: 10px;
-}
-```
-
+    .botao:hover {
+      background: #00c3ff;
+      color: white;
+      transform: scale(1.05);
+    }
   </style>
 </head>
 
 <body>
+
   <div class="container">
+    <h1>Meus Links</h1>
 
-```
-<div class="profile">
-  <img src="https://via.placeholder.com/90">
-  <h2>@seu_usuario</h2>
-</div>
-
-<a class="link" href="https://seulink1.com" target="_blank">
-  <img src="https://via.placeholder.com/40">
-  <span>PAINEL FRENTE - CAE MAR</span>
-</a>
-
-<a class="link" href="https://seulink2.com" target="_blank">
-  <img src="https://via.placeholder.com/40">
-  <span>PAINEL FRENTE - PLC</span>
-</a>
-
-<a class="link" href="https://seulink3.com" target="_blank">
-  <img src="https://via.placeholder.com/40">
-  <span>PAINEL ENTRADA DE CANA</span>
-</a>
-```
+    <a href="https://app.powerbi.com/view?r=eyJrIjoiMzFhMmNjZTAtNGVhNy00YWMwLTg4NzgtYzBhNTcxYTQ2ZTdiIiwidCI6ImZiNGQ5Y2Y0LWY0M2EtNDBjMy1iYWQ0LWIxMzI3OGRjODUxYSJ9" class="botao" target="_blank">🔗 Link 1</a>
+    <a href="https://https://app.powerbi.com/view?r=eyJrIjoiZDQxYjQ4OTctMmZhYy00YjU5LTk3ZjAtMTBiNDA0Mzg3ZmNhIiwidCI6ImZiNGQ5Y2Y0LWY0M2EtNDBjMy1iYWQ0LWIxMzI3OGRjODUxYSJ9" class="botao" target="_blank">📱 Link 2</a>
+    <a href="https://https://app.powerbi.com/view?r=eyJrIjoiN2I4NTQ4MGEtNDE0OC00MDRmLTk3MTQtMzlkMTUxMjY4MWMyIiwidCI6ImZiNGQ5Y2Y0LWY0M2EtNDBjMy1iYWQ0LWIxMzI3OGRjODUxYSJ9" class="botao" target="_blank">🚀 Link 3</a>
 
   </div>
+
 </body>
 </html>
